@@ -1,0 +1,36 @@
+{
+  "name": "salmon-fox",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Junrey Lañas <jrydev404@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "manage": "sanity manage",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "test": "sanity check",
+    "test:watch": "sanity check --watch"
+
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.34.0",
+    "@sanity/core": "^2.34.0",
+    "@sanity/default-layout": "^2.34.0",
+    "@sanity/default-login": "^2.34.0",
+    "@sanity/desk-tool": "^2.34.1",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/vision": "^2.34.0",
+    "eslint": "^8.6.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {}
+}
