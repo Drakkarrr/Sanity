@@ -5,7 +5,7 @@ export default {
     fields: [
         {
             name: 'postedBy',
-            title: 'Posted By',
+            title: 'PostedBy',
             type: 'postedBy',
         },
         {

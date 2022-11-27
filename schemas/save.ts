@@ -5,12 +5,12 @@ export default {
     fields: [
         {
             name: 'postedBy',
-            title: 'Posted By',
+            title: 'PostedBy',
             type: 'postedBy',
         },
         {
             name: 'userId',
-            title: 'User ID',
+            title: 'UserID',
             type: 'string',
         },
     ],
